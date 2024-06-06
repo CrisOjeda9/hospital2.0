@@ -15,7 +15,7 @@
                         <label for="email" class="block text-sm font-medium leading-5  text-gray-700">Correo
                             electronico</label>
                         <div class="mt-1 relative rounded-md shadow-sm">
-                            <input id="email" name="email" placeholder="user@example.com" type="email"  value=""
+                            <input id="email" name="email" placeholder="user@example.com" type="email" required
                                 class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                             <div class="hidden absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
                                 <svg class="h-5 w-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
@@ -30,14 +30,14 @@
                     <div class="mt-6">
                         <label for="password" class="block text-sm font-medium leading-5 text-gray-700">Contraseña</label>
                         <div class="mt-1 rounded-md shadow-sm">
-                            <input id="password" name="password" type="password" 
+                            <input id="password" name="password" type="password"  required
                                 class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5">
                         </div>
                     </div>
 
                     <div class="mt-6 flex items-center justify-between">
                         <div class="flex items-center">
-                            <input id="remember_me" name="remember" type="checkbox" value="1"
+                            <input id="remember_me" name="remember" type="checkbox" required
                                 class="form-checkbox h-4 w-4 text-indigo-600 transition duration-150 ease-in-out">
                             <label for="remember_me" class="ml-2 block text-sm leading-5 text-gray-900">Recordar sesion</label>
                         </div>
