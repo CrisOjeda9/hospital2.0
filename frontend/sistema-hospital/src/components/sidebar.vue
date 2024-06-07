@@ -173,11 +173,11 @@
                </button>
                <ul id="dropdown-example4" class="hidden py-2 space-y-2">
                   <li>
-                     <a href="#"
+                     <a href="/consumibles"
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Consumibles</a>
                   </li>
                   <li>
-                     <a href="#"
+                     <a href="/lotes"
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Lote
                         medicamento</a>
                   </li>
@@ -186,7 +186,7 @@
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Medicamentos</a>
                   </li>
                   <li>
-                     <a href="#"
+                     <a href="/dispensation"
                         class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Dispensacion</a>
                   </li>
                </ul>

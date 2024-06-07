@@ -6,6 +6,9 @@ import sidebar from '@/components/sidebar.vue'
 import usuarios from '@/components/usuarios.vue'
 import personas from '@/components/personas.vue'
 import medicamentos from '@/components/medicamentos.vue'
+import LotesMed from '@/components/LotesMed.vue'
+import ConsumiblesView from '@/components/consumibles.vue'
+import dispensacionView from '@/components/dispensacion.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,7 +29,10 @@ const router = createRouter({
       component:sidebar,
       children:[
         {path:'/person',name:'personas',component:personas},
-        {path:'/medicament',name:'medicamentos',component:medicamentos}
+        {path:'/medicament',name:'medicamentos',component:medicamentos},
+        {path:'/lotes',name:'lotesmed',component:LotesMed},
+        {path:'/consumibles',name:'consumibles',component:ConsumiblesView},
+        {path:'/dispensation',name:'dispensacion',component:dispensacionView},
       ]
     },
     {

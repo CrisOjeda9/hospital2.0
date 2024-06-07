@@ -1,6 +1,6 @@
 <template>
     <form>
-      <div class="w-full lg:w-7/12 bg-white dark:bg-gray-700 p-8 lg:rounded-l-none">
+      <div class="mx-auto w-full lg:w-7/12 bg-white dark:bg-gray-700 p-8 lg:rounded-l-none">
         <h3 class="py-4 text-3xl font-semibold text-center text-gray-800 dark:text-white">PRIVILAGE CARE HOSPITAL</h3>
         <form class="px-8 pt-6 pb-8 mb-4 bg-white dark:bg-gray-800 rounded">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
