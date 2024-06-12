@@ -9,6 +9,7 @@ import medicamentos from '@/components/medicamentos.vue'
 import LotesMed from '@/components/LotesMed.vue'
 import ConsumiblesView from '@/components/consumibles.vue'
 import dispensacionView from '@/components/dispensacion.vue'
+import tablaMedic from '@/components/tablamedicamentos.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -33,6 +34,7 @@ const router = createRouter({
         {path:'/lotes',name:'lotesmed',component:LotesMed},
         {path:'/consumibles',name:'consumibles',component:ConsumiblesView},
         {path:'/dispensation',name:'dispensacion',component:dispensacionView},
+        {path:'/tablamedic',name:'tablamedicamentos',component:tablaMedic},
       ]
     },
     {
