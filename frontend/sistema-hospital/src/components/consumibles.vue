@@ -95,11 +95,17 @@
             </div>
           </div>
           <div class="mt-6 text-center">
-            <button
+            <!-- <button
               class="bg-indigo-600 text-white font-semibold py-2 px-4 w-full rounded-lg hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 "
               type="button">
               Registrar
+            </button> -->
+            <button
+              class="bg-blue-500 text-white font-semibold py-2 px-4 w-full rounded-lg hover:bg-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              type="button">
+              Registrar
             </button>
+
           </div>
         </form>
       </div>
