@@ -3,7 +3,7 @@
         <div class="sm:mx-auto sm:w-full sm:max-w-md">
             <img class="mx-auto h-10 w-auto" src="https://www.svgrepo.com/show/301692/login.svg" alt="Workflow">
             <h2 class="mt-6 text-center text-3xl leading-9 font-extrabold text-gray-900">
-                Lotes medicamentos
+                Consumibles
             </h2>
         </div>
         <div class="mt-6">
