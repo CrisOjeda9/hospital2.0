@@ -1,38 +1,24 @@
+
 <template>
-  <section class="py-4 md:py-1 dark:bg-gray-800 p-8  sm:p-8 ">
+  <div class="bg-gray-200 w-full h-full min-h-screen b  ">
 
-    <div
-      class="flex flex-col items-center justify-center px-30 py-10 mx-auto  lg:py-0 p-6 space-y-4 md:space-y-6 sm:p-8 my-4">
-      <a href="/" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
-        <img class="w-20 h-20 mr-8"
-          src="https://img.freepik.com/vector-premium/icono-atencion-medica-medica-clinica-edificio-hospital-diseno-colorido_619989-984.jpg?w=826"
-          alt="osher.ai logo">
-        Hospital Privilage Care
-      </a>
-      <a href="/tablalot"
-                        class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
-                        Regresar
-                    </a>
-      <div
-        class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
-        
-        <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-          <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-            Lotes Medicamento
-          </h1>
+    <form>
 
+      <div class="mx-auto w-full lg:w-7/12  dark:bg-gray-700 p-8 lg:rounded-l-none">
+        <h3 class="py-4 text-3xl font-semibold text-center text-gray-800 dark:text-white">Lotes Medicamento</h3>
+        <form class="px-8 pt-6 pb-8 mb-4 bg-white dark:bg-gray-800 rounded">
+          <a href="/tablalot"
+            class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+            Regresar
+          </a>
 
-
-
-
-
-
-          <form class="space-y-4 md:space-y-6" method="POST" action="/auth/login/">
-
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
             <div>
-              <label for="genero" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Medicamento</label>
+              <label class="block mb-2 text-sm font-semibold text-gray-700 dark:text-white" for="genero">
+                Medicamento
+              </label>
               <select name="generos" id="genero"
-                class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-teal-600 focus:border-teal-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                class="w-full px-4 py-2 text-sm border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-white dark:bg-gray-700 dark:border-gray-600">
                 <option value="">--Selecciona el Medicamento--</option>
                 <option value="Hombre">Medicamento 1</option>
                 <option value="Mujer">Medicamento 2</option>
@@ -42,9 +28,11 @@
             </div>
 
             <div>
-              <label for="genero" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Personal Medico</label>
+              <label class="block mb-2 text-sm font-semibold text-gray-700 dark:text-white" for="genero">
+                Personal Medico
+              </label>
               <select name="generos" id="genero"
-                class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-teal-600 focus:border-teal-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                class="w-full px-4 py-2 text-sm border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-white dark:bg-gray-700 dark:border-gray-600">
                 <option value="">--Selecciona el Personal Medico--</option>
                 <option value="Hombre">Cedula 1</option>
                 <option value="Mujer">Cedula 2</option>
@@ -54,14 +42,19 @@
             </div>
 
             <div>
-              <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Clave</label>
+              <label class="block mb-2 text-sm font-semibold text-gray-700 dark:text-white" for="name">
+                Clave
+              </label>
               <input type="text" name="register" id="name"
-                class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-teal-600 focus:border-teal-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                class="w-full px-4 py-2 text-sm border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-white dark:bg-gray-700 dark:border-gray-600">
             </div>
+
             <div>
-              <label for="genero" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Estatus</label>
+              <label class="block mb-2 text-sm font-semibold text-gray-700 dark:text-white" for="genero">
+                Estatus
+              </label>
               <select name="generos" id="genero"
-                class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-teal-600 focus:border-teal-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                class="w-full px-4 py-2 text-sm border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-white dark:bg-gray-700 dark:border-gray-600">
                 <option value="">--Selecciona el Estatus--</option>
                 <option value="Hombre">Reservado</option>
                 <option value="Mujer">En transito</option>
@@ -72,34 +65,31 @@
 
 
             <div>
-              <label for="costo" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Costo Total</label>
+              <label class="block mb-2 text-sm font-semibold text-gray-700 dark:text-white" for="costo">
+                Costo Total
+              </label>
               <input type="number" name="costo" id="costo"
-                class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-teal-600 focus:border-teal-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                class="w-full px-4 py-2 text-sm border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-white dark:bg-gray-700 dark:border-gray-600">
             </div>
             <div>
-              <label for="cantidad" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Cantidad </label>
+              <label class="block mb-2 text-sm font-semibold text-gray-700 dark:text-white" for="cantidad">
+                Cantidad
+              </label>
               <input type="number" name="cantidad" id="cantidad"
-                class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-teal-600 focus:border-teal-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                class="w-full px-4 py-2 text-sm border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-white dark:bg-gray-700 dark:border-gray-600">
             </div>
 
-
-
-
-            <button type="submit" class="text-white bg-teal-600 py-1.5 px-4 rounded font-bold w-full">
-              <a href="/inicio">Crear</a>
+          </div>
+          <div class="mt-6 text-center">
+            <button
+              class="bg-indigo-600 text-white font-semibold py-2 px-4 w-full rounded-lg hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 "
+              type="button">
+              Crear
             </button>
-
-
-
-
-
-
-          </form>
-
-
-        </div>
+          </div>
+        </form>
       </div>
+    </form>
   </div>
-
-</section></template>
-  
+</template>
+    
