@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-200 w-full h-full min-h-screen bg-repeat  " style="background-image: url(https://img.freepik.com/vector-gratis/fondo-transparente-articulos-medicos_1284-3691.jpg?t=st=1718221409~exp=1718225009~hmac=2e3eb03a875d4224646efd4c2383fcdb795ef7d8683aab051930277653880ee2&w=826);">
+    <div class="bg-gray-200 w-full h-full min-h-screen b  ">
 
         <form>
 
@@ -121,8 +121,8 @@
                                 <select id="estatus" name="estatus" required
                                     class="w-full px-4 py-2 text-sm border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:text-white dark:bg-gray-700 dark:border-gray-600">
                                     <option value="" disabled selected>Selecciona estatus</option>
-                                <option value="disponible">Disponible</option>
-                                <option value="no_disponible">No disponible</option>
+                                    <option value="disponible">Disponible</option>
+                                    <option value="no_disponible">No disponible</option>
 
 
 
