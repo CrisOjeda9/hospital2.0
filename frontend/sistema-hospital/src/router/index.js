@@ -12,6 +12,7 @@ import dispensacionView from '@/components/dispensacion.vue'
 import tablaMedic from '@/components/tablamedicamentos.vue'
 import tablaCon from '@/components/tablaconsumibles.vue'
 import tablaLotes from '@/components/tablalotes.vue'
+import tablaDis from'@/components/tabladispensacion.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +40,7 @@ const router = createRouter({
         {path:'/tablamedic',name:'tablamedicamentos',component:tablaMedic},
         {path:'/tablacon',name:'tablaconsumibles',component:tablaCon},
         {path:'/tablalot',name:'tablalotes',component:tablaLotes},
+        {path:'/tabladis',name:'tabladis',component:tablaDis},
       ]
     },
     {
